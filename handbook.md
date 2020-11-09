@@ -6,6 +6,6 @@ og_image: "https://bikinibottomdiscord.org/assets/krusty_krab.png"
 
 [back to main page](./)
 
-## Info
+### Info
 
 *insert stuff here*
