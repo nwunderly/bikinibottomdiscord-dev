@@ -1,7 +1,7 @@
 ---
 title: Pink Jellyfish
 description: "Jellydex : Page 1"
-og_url: "https://media.discordapp.net/attachments/637056407908122654/710701432214519829/pinkjelly1.png"
+og_image: "https://media.discordapp.net/attachments/637056407908122654/710701432214519829/pinkjelly1.png"
 ---
 
 ![pinkjelly1.png](https://media.discordapp.net/attachments/637056407908122654/710701432214519829/pinkjelly1.png)

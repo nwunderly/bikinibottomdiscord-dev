@@ -4,6 +4,7 @@
 ### Pages:
 * [Employee Handbook](./handbook)
 * [Our Bots](./bots)
+* [Jellydex](./jellydex)
 
 ### Other Links:
 
