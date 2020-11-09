@@ -14,17 +14,19 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
+    <style>
+      body {
+        background-image: url('https://cdn.discordapp.com/splashes/384811165949231104/30cd91ea018edd0b6d1e26d61f6cb7f3.webp?size=1024');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: top center;
+      }
+      .main-content {
+        background-color: white;
+      }
+    </style>
     <header class="page-header" role="banner">
-      {% if page.name == "index.md" %}
-      <style>
-        page-header {
-          background-image: url('https://cdn.discordapp.com/splashes/384811165949231104/30cd91ea018edd0b6d1e26d61f6cb7f3.webp?size=2048');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-        }
-      </style>
-      {% endif %}
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="https://invite.bikinibottomdiscord.org" class="btn"><img src="https://discord.com/assets/192cb9459cbc0f9e73e2591b700f1857.svg" style="vertical-align:middle" height="30"></a>
