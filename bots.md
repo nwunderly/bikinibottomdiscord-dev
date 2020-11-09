@@ -1,6 +1,7 @@
 ---
 title: Our Bots
 description: Custom bots, created and hosted special for Bikini Bottom by our server staff!
+og_image: "https://cdn.discordapp.com/avatars/455470953544286258/c9942e25d7a3ce92a3f0d7c4b47694aa.webp?size=1024"
 ---
 
 [back to main page](./)
