@@ -1,4 +1,8 @@
 title: Bikini Bottom Discord
 description: The largest, most active, coolest Spongebob Discord server!
 theme: jekyll-theme-cayman
-og_image: "https://cdn.discordapp.com/emojis/718369341816700958.png"
+defaults:
+  - scope:
+      path: ""
+    values:
+      og_image: "https://cdn.discordapp.com/emojis/718369341816700958.png"
