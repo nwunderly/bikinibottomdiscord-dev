@@ -14,9 +14,9 @@ Neptune's Helper is our custom server helper bot! He handles both some fun thing
 ### Magic Conch
 Ask the conch your most sought after questions. Type **@Magic Conch \(your question here)?** for an answer!
 
-*Magic Conch is one of our public bots! Invite this bot [here](https://invite.bikinibottomdiscord.org/conch).*
+<sup>*Magic Conch is one of our public bots! Invite this bot [here](https://invite.bikinibottomdiscord.org/conch).*</sup>
 
 ### Droiddevic
 Use him to play games with your buddies in the **#chum-bucket**! Type >help to see what he can do!
 
-*Droiddevic is one of our public bots! Invite this bot [here](https://invite.bikinibottomdiscord.org/droid).*
+<sup>*Droiddevic is one of our public bots! Invite this bot [here](https://invite.bikinibottomdiscord.org/droid).*</sup>
