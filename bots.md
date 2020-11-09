@@ -1,4 +1,9 @@
-## Our Bots
+---
+title: Our Bots
+description: Custom bots, created and hosted special for Bikini Bottom by our server staff!
+---
+
+[back to main page](./)
 
 #### Jellyfish and Ol' Reliable
 By far our two most popular bots, Jellyfish and Ol' Reliable allow you to catch jellyfish in **#jellyfish-fields**!
