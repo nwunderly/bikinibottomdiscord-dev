@@ -17,16 +17,16 @@ let images = [["./assets/20poggies.png", 0.5], ["./assets/poggies.png", 2]];
     canvas = document.getElementById("background");
 	ctx = canvas.getContext("2d");
 
-	for (i = 0; i < 10; i++) {
-		var xPosRandom = Math.random();
-		var yPosRandom = Math.random();
-		var xSpeedRandom = (Math.random()-0.5) * 8;
-		var ySpeedRandom = (Math.random()-0.5) * 8;
-		var thetaSpeedRandom = (Math.random()-0.5)*.1
+	for (i = 0; i < Math.ceil(12 += Math.random()*4)); i++) {
+		var xPosRandom = Math.random()-0.5;
+		var yPosRandom = Math.random()-0.5;
+		var xSpeedRandom = (Math.random()-0.5) * 10;
+		var ySpeedRandom = (Math.random()-0.5) * 10;
+		var thetaSpeedRandom = (Math.random()-0.5)*0.15;
 		bulbes.push(
 			{
-				x: Math.floor((window.innerWidth - 250) * xPosRandom),
-				y: Math.floor((window.innerHeight - 250) * yPosRandom),
+				x: Math.floor(window.innerWidth/2 + (window.innerWidth-500)/2*xPosRandom),
+				y: Math.floor(window.innerHeight/2 + (window.innerHeight-500)/2*yPosRandom),
 				theta: 0,
 				xSpeed: xSpeedRandom,
 				ySpeed: ySpeedRandom,
@@ -84,10 +84,12 @@ function checkHitBox() {
 	for (bulbe of bulbes) {
 	    if (bulbe.x + bulbe.img.width * bulbe.scale / 2 >= canvas.width || bulbe.x <= 0 + bulbe.img.width * bulbe.scale / 2) {
 			bulbe.xSpeed *= -1;
+			bulbe.thetaSpeed *= -Math.sign(bulbe.x - canvas.width/2)*Math.sign(bulbe.ySpeed)*Math.sign(bulbe.thetaSpeed);
 		}
 
 		if (bulbe.y + bulbe.img.height * bulbe.scale / 2 >= canvas.height || bulbe.y <= 0 + bulbe.img.height * bulbe.scale / 2) {
 			bulbe.ySpeed *= -1;
+			bulbe.thetaSpeed *= Math.sign(bulbe.y - canvas.height/2)*Math.sign(bulbe.xSpeed)*Math.sign(bulbe.thetaSpeed);
 		}	
 	}
 }
