@@ -17,7 +17,7 @@ let images = [["./assets/20poggies.png", 0.5], ["./assets/poggies.png", 2]];
     canvas = document.getElementById("background");
 	ctx = canvas.getContext("2d");
 
-	for (i = 0; i < Math.ceil(12 += Math.random()*4)); i++) {
+	for (i = 0; i < Math.ceil(8 + Math.random()*4); i++) {
 		var xPosRandom = Math.random()-0.5;
 		var yPosRandom = Math.random()-0.5;
 		var xSpeedRandom = (Math.random()-0.5) * 10;
