@@ -4,6 +4,4 @@ description: Welcome to Bikini Bottom! Getting started in a new server can be da
 og_image: "https://bikinibottomdiscord.org/assets/krusty_krab.png"
 ---
 
-### Info
-
-*insert stuff here*
+### #TODO: this
