@@ -1,13 +1,17 @@
 
 # Welcome to Bikini Bottom!
 
-### Pages:
-* [Employee Handbook](./handbook)
-* [Our Bots](./bots)
-* [Jellydex](./jellydex)
 
-### Other Links:
+### Index
+- [Rules](./rules)
+- [Employee Handbook](./handbook)
+- [Our Bots](./bots)
+- [Jellyfishing](./jellyfishing)
+- [Jellymon](./jellymon)
 
-* [Discord](https://invite.bikinibottomdiscord.org)
-* [GitHub](https://github.com/BikiniBottomDiscord)
-* [Reddit](https://reddit.com/r/spongebob)
+
+### Other Links
+
+- [Discord](https://invite.bikinibottomdiscord.org)
+- [GitHub](https://github.com/BikiniBottomDiscord)
+- [Reddit](https://reddit.com/r/spongebob)
