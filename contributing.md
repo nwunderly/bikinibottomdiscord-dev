@@ -3,7 +3,7 @@ title: How To Contribute
 description: ""
 ---
 
-**Note: any questions/concerns about contributing to this site can be brought to `nwunder#5730` in DM on Discord. I'll get back to you ASAP. :smile:**
+**Note: any questions/concerns about contributing to this site can be brought to `nwunder#5730` in DM on Discord. I'll get back to you ASAP. :\)**
 
 Hey everyone, welcome to the Bikini Bottom website contributing guide! We appreciate your interest in helping us out!
 Firstly, I'd like to note that we'll be handling contributions through nwunder's [dev repository](https://github.com/nwunderly/bikinibottomdiscord-dev),
@@ -81,4 +81,4 @@ don't be afraid to send me a DM!
 
 Thanks to everyone who's expressed interest in contributing to our website! I'm so excited to work with you all!
 
-- nwunder#5730
+ \- nwunder#5730
