@@ -1,4 +1,7 @@
-### How to contribute to bikinibottomdiscord.org
+---
+title: How To Contribute
+description: ""
+---
 
 **Note: any questions/concerns about contributing to this site can be brought to `nwunder#5730` in DM on Discord. I'll get back to you ASAP. :smile:**
 
