@@ -21,31 +21,37 @@ Alternatively, [open an issue](https://github.com/nwunderly/bikinibottomdiscord-
 project board and make edits to the dev repository.
 
 
-#### The project board
+#### The ~~project board~~ Wiki
 
-I've made a [jellymon research](https://github.com/nwunderly/bikinibottomdiscord-dev/projects/1) project board for this repository as a way for us to share our notes
+<sup>NOTE: The project board ended up being extremely inconvenient for storing a large amount of information.
+We've set up a wiki in the dev reposotory that's much better for storing jellymon notes and drafting website pages</sup>
+
+I've made a [jellymon research](https://github.com/nwunderly/bikinibottomdiscord-dev/wiki) wiki for the dev repository as a way for us to share our notes
 in an organized fashion. This will be our central hub for collecting information we'd like to put into the website, and can be edited directly by any collaborators
-online. This page is much easier to edit than the actual site, so should be used for quick notes and such.
+online. This page is much easier to edit than the actual site \(which is linked to the code in the repository\), so should be used for quick notes and such.
 
-We'll be beginning the jellymon section of the website by assembling everything we can onto this board.
+We'll be beginning the jellymon section of the website by assembling everything we can onto this wiki.
 
 Some things about the project board:
-- Anything you find that you think could be useful to put on the website, feel free to put it on the project board
-- If there's already a note that your contribution would be a good fit for, you can edit the note to add it.
-- If there's not a note that it would fit into, you can make a new note with this info.
-- Please don't delete other people's notes. This is a page where we can all share our ideas, let's be polite.
-- I'd love any feedback on the project board. I think it should be useful for planning the jellymon guide, but if it ends up being difficult to use or is leading to issues,
+- Anything you find that you think could be useful to put on the website, feel free to put it in the wiki.
+- If there's already a page that your contribution would be a good fit for, you can edit the page to add it.
+- If there's not a page that it would fit into, you can make a new wiki page with this info. Please name it "Notes: {name here}" for consistency.
+- Please don't delete other people's notes. This is a place where we can all share our ideas, let's be polite.
+- I'd love any feedback on the ~~project board (like how it's afwul)~~ *wiki*. I think it should be useful for planning the jellymon guide, but if it ends up being difficult to use or is leading to issues,
 let me know. I'm doing my best to make things run as smoothly as possible.
 
 Our current sections:
-- **General notes:** Anything that doesn't seem to fit in the other categories, you're welcome to make a note and put it here. This includes general jellymon tips,
+- **Notes: General** Anything that doesn't seem to fit in the other categories, you're welcome to make a note and put it here. This includes general jellymon tips,
 suggestions for changes to the project board itself, thoughts on what we need to work more on, etc.
-- **Notes - species:** This is where we'll be taking notes on jellymon species! Information like moves learned, stats, evolutions, and anything else.
-We should do our best to have a single "note" card for each evolutionary set. I.e: information about Bulbasaur/Ivysaur/Venusaur would all go together in a single "card"
-- **Notes - moves:** Similar to the species column, but this one will contain things we've learned about jellymon moves.
-- **Notes - items:** Similar to the species/moves columns, but this one will contain things we've learned about the various items.
-- **To do** / **In progress** / **Done** Self explanitory, you probably won't be using these as much. Although if there's anything you think is worth adding,
-don't be afraid to create a note.
+- **Notes: Type Interactions** Our work-in-progress Jellymon type effectiveness chart! Also a section for notes, where you can put "unsolved" interactions between multiple types.
+- **Notes: Species** This is where we'll be taking notes on jellymon species! Information like moves learned, stats, evolutions, and anything else.
+If you look at how it's formatted, you'll see it's a standardized layout. I'd like to try to keep the rest of the page similar, so I can use code to read and format this
+page for the website. If you're interested, the format the data is using is called [YAML](https://www.tutorialspoint.com/yaml/yaml_basics.htm).
+Multiple items in a single "field" should be separated by a comma (with no space).
+- **Notes: Moves** Similar to the species page, but this one will contain things we've learned about jellymon moves.
+- **Notes - items:** Similar to the species/moves pages, but this one will contain things we've learned about the various items.
+<sup> Note: this one is done! Thanks No Ob!</sup>
+- *Any user is welcome to create a wiki page, if it's a topic we missed that deserves its own page.*
 
 
 #### The website repository
@@ -76,7 +82,7 @@ Don't delete branches or otherwise "vandalize" this repository. If you're making
 #### A note from Rev
 
 I know learning GitHub can be daunting sometimes, so please, if you need any help learning, don't be afraid to ask me. I'm happy to help!
-Additionally, if anyone has questions/concerns/suggestions for the website, the jellymon research project board, or the development github repository,
+Additionally, if anyone has questions/concerns/suggestions for the website, the jellymon research ~~project board~~ wiki, or the development github repository,
 don't be afraid to send me a DM!
 
 Thanks to everyone who's expressed interest in contributing to our website! I'm so excited to work with you all!
