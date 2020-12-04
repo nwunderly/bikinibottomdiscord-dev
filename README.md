@@ -8,3 +8,4 @@ The public repository for our server's static website!
 ### How to contribute:
 
 Check out our contributing guide [here](https://bikinibottomdiscord.org/contributing)
+
