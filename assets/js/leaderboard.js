@@ -3,7 +3,7 @@ let entriesAdded = 0;
 let json;
 
 $(document).ready(function(){
-    $.getJSON("http://127.0.0.1:5000/json/leaderboard.json", function(data){
+    $.getJSON("/leaderboard.json", function(data){
         json = data;
         let items = [];
         $.each(data, function(key, value){
@@ -18,7 +18,7 @@ $(document).ready(function(){
             $("#leaderboard").append(
                 `<div class="entry _${entriesAdded}">
                     <div class="rank _${entriesAdded}">${entriesAdded}</div>
-                    <img class="user_avatar" src="${item.avatar}">
+                    <img class="user_avatar" src="${item.avatar}" alt="${item.username}">
                     <span class="user_username">${item.username}</span>
                     <div id="user_points__block">
                         <div class="points_text">Exp Points</div>
@@ -50,7 +50,7 @@ $(window).scroll(function(){
                 $("#leaderboard").append(
                     `<div class="entry _${entriesAdded + 1}">
                               <div class="rank _${entriesAdded + 1}">${entriesAdded + 1}</div>
-                              <img class="user_avatar" src="${item.avatar}">
+                              <img class="user_avatar" src="${item.avatar}" alt="${item.username}">
                               <span class="user_username">${item.username}</span>
                               <div id="user_points__block">
                                   <div class="points_text">Exp Points</div>
