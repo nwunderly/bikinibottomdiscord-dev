@@ -1,0 +1,125 @@
+body { margin: 0; }
+
+#header {
+    position: relative;
+    background: rgba(0,0,255,255);
+    width: 100%;
+    height: 200px;
+    z-index: 10;
+}
+
+#header #header__text {
+    position: absolute;
+    font-size: 36px;
+    font-family: "Verdana";
+    font-weight: bold;
+    color: white;
+    left: 80px;
+    top: 70px;
+}
+
+#header #header__background {
+    position: absolute;
+    background: linear-gradient(to right, rgba(0,0,255,255), rgba(0,0,255,0));
+    width: 200px;
+    height: 200px;
+    top: 0;
+    right: 230px;
+    z-index: 12;
+}
+
+#header #header__background-image {
+    position: absolute;
+    background-image: url("/assets/bikini_bottom.png");
+    width: 430px;
+    height: 200px;
+    top: 0;
+    right: 0;
+    z-index: 11;
+}
+
+#content-wrapper { margin: 10px; }
+
+#leaderboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.entry {
+    position: relative;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 75px;
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+.entry * { font-family: "Verdana"; }
+
+.entry .rank {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    float: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    width: 50px;
+    left: 20px;
+    top: 15px;
+}
+
+.entry._1 { box-shadow: 0px 2px 5px 1px rgba(255,215,0,0.5); } /* 1st place color */
+.entry._2 { box-shadow: 0px 2px 5px 1px rgba(192,192,192,0.5); } /* 2nd place color */
+.entry._3 { box-shadow: 0px 2px 5px 1px rgba(139,69,19,0.5); } /* 3rd place color */
+.entry .rank._1 { color: #ffd700; } /* 1st place color */
+.entry .rank._2 { color: #c0c0c0; } /* 2nd place color */
+.entry .rank._3 { color: #8b4513; } /* 3rd place color */
+
+.entry .user_avatar {
+    position: relative;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    left: 50px;
+    top: 3px;
+}
+
+.entry .user_username {
+    position: relative;
+    font-size: 20px;
+    left: 60px;
+    top: -22px;
+}
+
+#user_points__block, #user_level__block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 10px;
+    top: 12px;
+}
+
+.entry .points_text, .entry .level_text {
+    position: relative;
+    font-size: 15px;
+}
+
+.entry .user_points, .entry .user_level {
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#loading {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
