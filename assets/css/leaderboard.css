@@ -52,7 +52,7 @@ body { margin: 0; }
     position: relative;
     padding: 5px;
     margin-bottom: 10px;
-    width: 50%;
+    width: 65%;
     height: 75px;
     box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1);
     z-index: 1;
@@ -98,6 +98,14 @@ body { margin: 0; }
     top: 30px;
 }
 
+#entry-left__block {
+    position: relative;
+    display: flex;
+    float: right;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
 #user_points__block, #user_level__block {
     position: relative;
     display: flex;
@@ -107,6 +115,44 @@ body { margin: 0; }
     float: right;
     margin-right: 10px;
     top: 12px;
+}
+
+#progress_bar__block {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    width: 200px;
+    height: 50px;
+    top: 12px;
+}
+
+#complete-bar {
+    position: absolute;
+    float: left;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    z-index: 4;
+}
+
+#percentage-bar {
+    position: absolute;
+    float: left;
+    background: #4778ff;
+    border-radius: 3px;
+    height: 50px;
+    top: 1px;
+    left: 1px;
+    z-index: 5;
+}
+
+#progress_percentage {
+    position: relative;
+    font-size: 30px;
+    margin-right: 20px;
+    top: 20px;
 }
 
 .entry .points_text, .entry .level_text {
