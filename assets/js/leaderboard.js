@@ -28,11 +28,11 @@ $(document).ready(function(){
             $("#leaderboard").append(
                 `<div class="entry _${entriesAdded} _${item.id}">
                     <div class="rank _${entriesAdded}">${entriesAdded}</div>
-                    <img class="user_avatar" src="${item.avatar}" alt="${item.username}">
+                    <img class="user_avatar" src="${item.avatar}" alt="${item.username}" draggable="false">
                     <span class="user_username">${item.username}</span>
                     <div id="entry-left__block">
                         <div id="progress_bar__block">
-                            <div id="percentage-bar" style="width: ${barWidth}px;"></div>
+                            <div id="percentage-bar" style="width: ${Math.floor(barWidth)}px;"></div>
                             <div id="complete-bar"></div>
                         </div>
                         <div id="progress_percentage">${Math.floor(percentage)}%</div>
@@ -51,7 +51,6 @@ $(document).ready(function(){
         console.log(`Loaded entries ${entriesAdded - 100} - ${entriesAdded}`);
         let userToFind = window.location.href.match(/\?user(_id)?=\d+/);
         if (userToFind) {
-            console.log("works");
             let userID = userToFind[0].match(/\d+/);
             findAndHighlightEntry(userID);
         }
@@ -59,8 +58,13 @@ $(document).ready(function(){
 });
 
 $(window).scroll(function() {
-    if ($(window).scrollTop() + $(window).height() === $(document).height()){
+    let entriesAtScroll = entriesAdded;
+    if ($(window).scrollTop() + $(window).height() >= $(document).height() - 20){
         addEntries();
+        if (entriesAdded === entriesAtScroll) {
+            console.log("a");
+            setTimeout(addEntries, 25);
+        }
     }
 });
 
@@ -78,11 +82,8 @@ function findAndHighlightEntry(id, final = false) {
 }
 
 function addEntries() {
-    if (entries <= entriesAdded) {
-        console.log("a");
-        $("#leaderboard").css("margin-bottom", `${window.innerHeight / 2}px`);
+    if (entries <= entriesAdded)
         return;
-    }
     let items = [];
     $.each(json, function(key, value){ items.push(value); });
     items.sort(function(a,b){ return b.points - a.points; });
