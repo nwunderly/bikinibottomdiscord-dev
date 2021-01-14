@@ -3,7 +3,7 @@ let entriesAdded = 0;
 let json;
 
 $(document).ready(function(){
-    $.getJSON("/leaderboard.json", function(data){
+    $.getJSON("https://api.bikinibottomdiscord.org/leaderboard", function(data){
         json = data;
         let items = [];
         $.each(data, function(key, value){
