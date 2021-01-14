@@ -9,6 +9,7 @@ $(document).ready(function(){
         let items = [];
         $.each(data, function(key, value){
             entries += 1;
+            value.id = key;
             items.push(value);
         });
         items.sort(function(a,b){ return b.points - a.points; });
@@ -25,7 +26,7 @@ $(document).ready(function(){
             percentage = ((expY - item.points) / (expY - expX)) * 100;
             barWidth = (198 / 100) * percentage;
             $("#leaderboard").append(
-                `<div class="entry _${entriesAdded}">
+                `<div class="entry _${entriesAdded} _${item.id}">
                     <div class="rank _${entriesAdded}">${entriesAdded}</div>
                     <img class="user_avatar" src="${item.avatar}" alt="${item.username}">
                     <span class="user_username">${item.username}</span>
@@ -48,58 +49,82 @@ $(document).ready(function(){
             );
         }
         console.log(`Loaded entries ${entriesAdded - 100} - ${entriesAdded}`);
+        let userToFind = window.location.href.match(/\?user_id=\d+/);
+        if (userToFind){
+            console.log("works");
+            let userID = userToFind[0].match(/\d+/);
+            findAndHighlightEntry(userID);
+        }
     });
 });
 
-$(window).scroll(function(){
+$(window).scroll(function() {
     if ($(window).scrollTop() + $(window).height() === $(document).height()){
-        let items = [];
-        $.each(json, function(key, value){ items.push(value); });
-        if (entries <= entriesAdded)
-            return;
-        items.sort(function(a,b){ return b.points - a.points; });
-        let item;
-        let expX;
-        let expY;
-        let percentage;
-        let barWidth;
-        let entriesToAdd = entriesAdded;
-        for (let i = 0; i < (items.length - entriesAdded) && i < 100; i++) {
-            item = items[i + entriesToAdd];
-            expX = expConversion[item.level.toString()];
-            expY = expConversion[(item.level + 1).toString()];
-            percentage = ((expY - item.points) / (expY - expX)) * 100;
-            barWidth = (198 / 100) * percentage;
-            try {
-                $("#leaderboard").append(
-                    `<div class="entry _${entriesAdded + 1}">
-                              <div class="rank _${entriesAdded + 1}">${entriesAdded + 1}</div>
-                              <img class="user_avatar" src="${item.avatar}" alt="${item.username}">
-                              <span class="user_username">${item.username}</span>
-                              <div id="entry-left__block">
-                                  <div id="progress_bar__block">
-                                      <div id="percentage-bar" style="width: ${barWidth}px;"></div>
-                                      <div id="complete-bar"></div>
-                                  </div>
-                                  <div id="progress_percentage">${Math.floor(percentage)}%</div>
-                                  <div id="user_points__block">
-                                      <div class="points_text">Exp Points</div>
-                                      <span class="user_points">${item.points}</span>
-                                  </div>
-                                  <div id="user_level__block">
-                                      <div class="level_text">Level</div>
-                                      <div class="user_level">${item.level}</div>
-                                  </div>
-                              </div>
-                          </div>`
-                );
-            } catch (err) {
-                console.log(`Error loading entry ${i + entriesAdded + 1}`);
-            }
-            entriesAdded++;
-        }
-        console.log(`Loaded entries ${entriesAdded - 100} - ${entriesAdded}`);
-        if (entriesAdded === entries) {}
-            $("#loading").hide();
+        addEntries();
     }
 });
+
+function findAndHighlightEntry(id) {
+    let entry = $(`._${id}`);
+    if (!(entry.length)) {
+        addEntries();
+        if (entriesAdded === entries) {
+            // do stuff
+            return;
+        }
+        findAndHighlightEntry(id);
+    } else {
+        window.scrollTo(0, entry.position().top);
+    }
+}
+
+function addEntries() {
+    let items = [];
+    $.each(json, function(key, value){ items.push(value); });
+    if (entries <= entriesAdded)
+        return;
+    items.sort(function(a,b){ return b.points - a.points; });
+    let item;
+    let expX;
+    let expY;
+    let percentage;
+    let barWidth;
+    let entriesToAdd = entriesAdded;
+    for (let i = 0; i < (items.length - entriesAdded) && i < 100; i++) {
+        item = items[i + entriesToAdd];
+        expX = expConversion[item.level.toString()];
+        expY = expConversion[(item.level + 1).toString()];
+        percentage = ((expY - item.points) / (expY - expX)) * 100;
+        barWidth = (198 / 100) * percentage;
+        try {
+            $("#leaderboard").append(
+                `<div class="entry _${entriesAdded + 1} _${item.id}">
+                             <div class="rank _${entriesAdded + 1}">${entriesAdded + 1}</div>
+                             <img class="user_avatar" src="${item.avatar}" alt="${item.username}">
+                             <span class="user_username">${item.username}</span>
+                             <div id="entry-left__block">
+                                 <div id="progress_bar__block">
+                                     <div id="percentage-bar" style="width: ${barWidth}px;"></div>
+                                     <div id="complete-bar"></div>
+                                 </div>
+                                 <div id="progress_percentage">${Math.floor(percentage)}%</div>
+                                 <div id="user_points__block">
+                                     <div class="points_text">Exp Points</div>
+                                     <span class="user_points">${item.points}</span>
+                                 </div>
+                                 <div id="user_level__block">
+                                     <div class="level_text">Level</div>
+                                     <div class="user_level">${item.level}</div>
+                                 </div>
+                             </div>
+                         </div>`
+            );
+        } catch (err) {
+            console.log(`Error loading entry ${i + entriesAdded + 1}`);
+        }
+        entriesAdded++;
+    }
+    console.log(`Loaded entries ${entriesAdded - 100} - ${entriesAdded}`);
+    if (entriesAdded === entries)
+        $("#loading").hide();
+}
