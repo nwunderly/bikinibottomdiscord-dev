@@ -28,11 +28,11 @@ $(document).ready(function(){
             $("#leaderboard").append(
                 `<div class="entry _${entriesAdded} _${item.id}">
                     <div class="rank _${entriesAdded}">${entriesAdded}</div>
-                    <img class="user_avatar" src="${item.avatar}" alt="${item.username}">
+                    <img class="user_avatar" src="${item.avatar}" alt="${item.username}" draggable="false">
                     <span class="user_username">${item.username}</span>
                     <div id="entry-left__block">
                         <div id="progress_bar__block">
-                            <div id="percentage-bar" style="width: ${barWidth}px;"></div>
+                            <div id="percentage-bar" style="width: ${Math.floor(barWidth)}px;"></div>
                             <div id="complete-bar"></div>
                         </div>
                         <div id="progress_percentage">${Math.floor(percentage)}%</div>
@@ -58,8 +58,13 @@ $(document).ready(function(){
 });
 
 $(window).scroll(function() {
+    let entriesAtScroll = entriesAdded;
     if ($(window).scrollTop() + $(window).height() >= $(document).height() - 20){
         addEntries();
+        if (entriesAdded === entriesAtScroll) {
+            console.log("a");
+            setTimeout(addEntries, 25);
+        }
     }
 });
 
