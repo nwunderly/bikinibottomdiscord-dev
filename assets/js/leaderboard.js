@@ -51,7 +51,6 @@ $(document).ready(function(){
         console.log(`Loaded entries ${entriesAdded - 100} - ${entriesAdded}`);
         let userToFind = window.location.href.match(/\?user(_id)?=\d+/);
         if (userToFind) {
-            console.log("works");
             let userID = userToFind[0].match(/\d+/);
             findAndHighlightEntry(userID);
         }
@@ -78,11 +77,8 @@ function findAndHighlightEntry(id, final = false) {
 }
 
 function addEntries() {
-    if (entries <= entriesAdded) {
-        console.log("a");
-        $("#leaderboard").css("margin-bottom", `${window.innerHeight / 2}px`);
+    if (entries <= entriesAdded)
         return;
-    }
     let items = [];
     $.each(json, function(key, value){ items.push(value); });
     items.sort(function(a,b){ return b.points - a.points; });
