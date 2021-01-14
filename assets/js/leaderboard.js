@@ -49,8 +49,8 @@ $(document).ready(function(){
             );
         }
         console.log(`Loaded entries ${entriesAdded - 100} - ${entriesAdded}`);
-        let userToFind = window.location.href.match(/\?user_id=\d+/);
-        if (userToFind){
+        let userToFind = window.location.href.match(/\?user(_id)?=\d+/);
+        if (userToFind) {
             console.log("works");
             let userID = userToFind[0].match(/\d+/);
             findAndHighlightEntry(userID);
@@ -64,25 +64,27 @@ $(window).scroll(function() {
     }
 });
 
-function findAndHighlightEntry(id) {
+function findAndHighlightEntry(id, final = false) {
     let entry = $(`._${id}`);
-    if (!(entry.length)) {
+    if (!(entry.length) && !(final)) {
         addEntries();
-        if (entriesAdded === entries) {
-            // do stuff
-            return;
-        }
+        if (entriesAdded === entries)
+            findAndHighlightEntry(id, true);
         findAndHighlightEntry(id);
     } else {
-        window.scrollTo(0, entry.position().top);
+        entry.addClass("highlighted")
+        window.scrollTo(0, entry.position().top - window.innerHeight / 2 + 100);
     }
 }
 
 function addEntries() {
+    if (entries <= entriesAdded) {
+        console.log("a");
+        $("#leaderboard").css("margin-bottom", `${window.innerHeight / 2}px`);
+        return;
+    }
     let items = [];
     $.each(json, function(key, value){ items.push(value); });
-    if (entries <= entriesAdded)
-        return;
     items.sort(function(a,b){ return b.points - a.points; });
     let item;
     let expX;
@@ -99,25 +101,25 @@ function addEntries() {
         try {
             $("#leaderboard").append(
                 `<div class="entry _${entriesAdded + 1} _${item.id}">
-                             <div class="rank _${entriesAdded + 1}">${entriesAdded + 1}</div>
-                             <img class="user_avatar" src="${item.avatar}" alt="${item.username}">
-                             <span class="user_username">${item.username}</span>
-                             <div id="entry-left__block">
-                                 <div id="progress_bar__block">
-                                     <div id="percentage-bar" style="width: ${barWidth}px;"></div>
-                                     <div id="complete-bar"></div>
-                                 </div>
-                                 <div id="progress_percentage">${Math.floor(percentage)}%</div>
-                                 <div id="user_points__block">
-                                     <div class="points_text">Exp Points</div>
-                                     <span class="user_points">${item.points}</span>
-                                 </div>
-                                 <div id="user_level__block">
-                                     <div class="level_text">Level</div>
-                                     <div class="user_level">${item.level}</div>
-                                 </div>
-                             </div>
-                         </div>`
+                     <div class="rank _${entriesAdded + 1}">${entriesAdded + 1}</div>
+                     <img class="user_avatar" src="${item.avatar}" alt="${item.username}">
+                     <span class="user_username">${item.username}</span>
+                     <div id="entry-left__block">
+                         <div id="progress_bar__block">
+                             <div id="percentage-bar" style="width: ${barWidth}px;"></div>
+                             <div id="complete-bar"></div>
+                         </div>
+                         <div id="progress_percentage">${Math.floor(percentage)}%</div>
+                         <div id="user_points__block">
+                             <div class="points_text">Exp Points</div>
+                             <span class="user_points">${item.points}</span>
+                         </div>
+                         <div id="user_level__block">
+                             <div class="level_text">Level</div>
+                             <div class="user_level">${item.level}</div>
+                         </div>
+                     </div>
+                 </div>`
             );
         } catch (err) {
             console.log(`Error loading entry ${i + entriesAdded + 1}`);
