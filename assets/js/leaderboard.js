@@ -58,7 +58,7 @@ $(document).ready(function(){
 });
 
 $(window).scroll(function() {
-    if ($(window).scrollTop() + $(window).height() === $(document).height()){
+    if ($(window).scrollTop() + $(window).height() >= $(document).height() - 20){
         addEntries();
     }
 });
