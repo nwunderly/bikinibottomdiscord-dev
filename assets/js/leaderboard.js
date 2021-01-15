@@ -26,7 +26,7 @@ $(document).ready(function(){
             expX = expConversion[item.level.toString()];
             expY = expConversion[(item.level + 1).toString()];
             percentage = ((expY - item.points) / (expY - expX)) * 100;
-            barWidth = (198 / 100) * percentage;
+            barWidth = ((198 / 100) * (100 - percentage));
             $("#leaderboard").append(
                 `<div class="entry _${entriesAdded} _${item.id}">
                     <div class="rank _${entriesAdded}">${entriesAdded}</div>
@@ -37,7 +37,7 @@ $(document).ready(function(){
                             <div id="percentage-bar" style="width: ${Math.floor(barWidth)}px;"></div>
                             <div id="complete-bar"></div>
                         </div>
-                        <div id="progress_percentage">${Math.floor(percentage)}%</div>
+                        <div id="progress_percentage">${Math.floor(100 - percentage)}%</div>
                         <div id="user_points__block">
                             <div class="points_text">Exp Points</div>
                             <span class="user_points">${item.points}</span>
@@ -51,10 +51,33 @@ $(document).ready(function(){
             );
         }
         console.log(`Loaded entries ${entriesAdded - 100} - ${entriesAdded}`);
-        let userToFind = window.location.href.match(/\?user(_id)?=\d+/);
-        if (userToFind) {
-            let userID = userToFind[0].match(/\d+/);
-            findAndHighlightEntry(userID);
+        let ToFind = window.location.href.match(/\?(user(_id)?|place)=\d+/);
+        if (ToFind) {
+            let entryID = ToFind[0].match(/\d+/);
+            try {
+                findAndHighlightEntry(entryID);
+            } catch(err)  {
+                $(document.body).append(`
+                    <div id="error_message">
+                        <span id="error_message__header">Error</span>
+                        <span id="error_message__message">No entry with ID ${entryID} found</span>
+                    </div>
+                `);
+                let message = $("#error_message");
+                let opacity = 1;
+                setTimeout( function() {
+                    setInterval(
+                        function () {
+                            opacity -= 0.01;
+                            message.css("opacity", opacity.toString());
+                            if (opacity <= 0) {
+                                message.remove();
+                            }
+                        },
+                        25)
+                },
+        5000);
+            }
         }
         mobile = isMobile();
         if (mobile)
@@ -65,7 +88,7 @@ $(document).ready(function(){
 $(window).scroll(function() {
     if (mobile)
         return;
-    if ($(window).scrollTop() + $(window).height() >= $(document).height() - 20){
+    if ($(window).scrollTop() + $(window).height() >= $(document).height()){
         addEntries();
     }
 });
@@ -79,7 +102,7 @@ function findAndHighlightEntry(id, final = false) {
         findAndHighlightEntry(id);
     } else {
         entry.addClass("highlighted")
-        window.scrollTo(0, entry.position().top - window.innerHeight / 2 + 100);
+        window.scrollTo(0, entry.position().top - window.innerHeight / 2 - 100);
     }
 }
 
@@ -104,7 +127,7 @@ function addEntries() {
         expX = expConversion[item.level.toString()];
         expY = expConversion[(item.level + 1).toString()];
         percentage = ((expY - item.points) / (expY - expX)) * 100;
-        barWidth = (198 / 100) * percentage;
+        barWidth = ((198 / 100) * (100 - percentage));
         try {
             $("#leaderboard").append(
                 `<div class="entry _${entriesAdded + 1} _${item.id}">
@@ -116,7 +139,7 @@ function addEntries() {
                              <div id="percentage-bar" style="width: ${barWidth}px;"></div>
                              <div id="complete-bar"></div>
                          </div>
-                         <div id="progress_percentage">${Math.floor(percentage)}%</div>
+                         <div id="progress_percentage">${Math.floor(100 - percentage)}%</div>
                          <div id="user_points__block">
                              <div class="points_text">Exp Points</div>
                              <span class="user_points">${item.points}</span>
