@@ -200,6 +200,10 @@ body {
 }
 
 @media (max-device-width: 1500px) {
+    #header__text {
+        font-size: 20px;
+        top: 85px;
+    }
     .entry {
         width: 99%;
     }
