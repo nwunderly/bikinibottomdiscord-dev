@@ -222,23 +222,22 @@ body {
     margin-top: 30px;
 }
 
-@media (orientation: portrait) {
-    #progress_bar__block, #progress_percentage {
-        display: none !important;
+@media (max-device-width: 1500px) or (orientation: portrait) {
+    #header {
+        background: rgb(0, 0, 255) !important;
     }
 
-    #entry_left__block {
-        justify-content: flex-end !important;
+    #header__background {
+        background: linear-gradient(to right, rgb(0, 0, 255), rgba(0, 0, 255, 0)) !important;
+        right: 232px!important;
     }
-}
 
-@media (max-device-width: 1500px) {
     #header__text {
-        font-size: 20px;
-        top: 85px;
+        font-size: 20px !important;
+        top: 85px !important;
     }
     .entry {
-        width: 99%;
+        width: 99% !important;
     }
 
     .entry .user_username{
