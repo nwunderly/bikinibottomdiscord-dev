@@ -8,7 +8,7 @@
 - [Our Bots](./bots)
 - [Jellyfishing](./jellyfishing)
 - [Jellymon](./jellymon)
-
+- [Leaderboard](./leaderboard)
 
 ### Other Links
 
