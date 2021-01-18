@@ -62,7 +62,7 @@ Royal items **only** affect server roles, rank experience, and shells (the serve
 
 **Description:** Get some gloves and get a better grip on your next spatula pull. Is used immediately.
 
-![Rubber Gloves](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Royal%20Items/NH00.png)
+![Rubber Gloves](/assets/Royal%20Items/NH00.png)
 
 ***
 **Name:** Walkie Talkie
@@ -79,7 +79,7 @@ Royal items **only** affect server roles, rank experience, and shells (the serve
 
 **Description:** Have your best friend give you guidance on your next boating test!
 
-![Walkie Talkie](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Royal%20Items/NH01.png)
+![Walkie Talkie](/assets/Royal%20Items/NH01.png)
 
 ***
 **Name:** Wool Sock
@@ -96,7 +96,7 @@ Royal items **only** affect server roles, rank experience, and shells (the serve
 
 **Description:** Put a sock over your head and try to rob the bank for double currency gains for 1 hour.
 
-![Wool Sock](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Royal%20Items/NH02.png)
+![Wool Sock](/assets/Royal%20Items/NH02.png)
 
 ***
 **Name:** Bowl of Nails
@@ -113,7 +113,7 @@ Royal items **only** affect server roles, rank experience, and shells (the serve
 
 **Description:** Eat your breakfast of nails without any milk for some sick reputation; i.e. double rank xp gains for 1 hour.
 
-![Bowl of Nails](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Royal%20Items/NH03.png)
+![Bowl of Nails](/assets/Royal%20Items/NH03.png)
 
 ***
 **Name:** Howard Blandy Aprentice
@@ -130,7 +130,7 @@ Royal items **only** affect server roles, rank experience, and shells (the serve
 
 **Description:** Buy a vanity role with your coins. Each time this is purchased the cost goes up. Anyone can purchase it.
 
-![Howard Balndy Aprentice](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Royal%20Items/NH04.png)
+![Howard Balndy Aprentice](/assets/Royal%20Items/NH04.png)
 
 ***
 **Name:** Hall Pass
@@ -147,7 +147,7 @@ Royal items **only** affect server roles, rank experience, and shells (the serve
 
 **Description:** Buy your way into #mod-thots and send a single message
 
-![Hall Pass](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Royal%20Items/NH05.png)
+![Hall Pass](/assets/Royal%20Items/NH05.png)
 
 # **Jellymon Items**
 
@@ -173,7 +173,7 @@ All Jellymon items are apart of `Jellymon #9372` bot
 
 **Description:** Used to catch wild Jellymon!
 
-![Glass Jar](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Jellymon%20Items/JM10.png)
+![Glass Jar](/assets/Jellymon%20Items/JM10.png)
 
 ***
 **Name:** Thick Glass Jar
@@ -194,7 +194,7 @@ All Jellymon items are apart of `Jellymon #9372` bot
 
 **Description:** A Jar with higher catch odds than Glass Jars!
 
-![Thick Glass Jar](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Jellymon%20Items/JM11.png)
+![Thick Glass Jar](/assets/Jellymon%20Items/JM11.png)
 
 ***
 **Name:** Reinforced Glass Jar
@@ -215,7 +215,7 @@ All Jellymon items are apart of `Jellymon #9372` bot
 
 **Description:** A Jar with higher catch odds than Thick Glass Jars!
 
-![Reinforced Glass Jar](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Jellymon%20Items/JM12.png)
+![Reinforced Glass Jar](/assets/Jellymon%20Items/JM12.png)
 
 ***
 **Name:** Jellyfish Jam
@@ -290,7 +290,7 @@ All Jellymon items are apart of `Jellymon #9372` bot
 
 **Description:** Multiply the base power of Shock moves by 1.2
 
-![AAA Battery](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Jellymon%20Items/JM17.png)
+![AAA Battery](/assets/Jellymon%20Items/JM17.png)
 ***
 **Name:** Bubble Buddy
 
@@ -328,7 +328,7 @@ All Jellymon items are apart of `Jellymon #9372` bot
 
 **Description:** Multiply the base power of Sting moves by 1.2
 
-![Sewing Needle](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Jellymon%20Items/JM19.png)
+![Sewing Needle](/assets/Jellymon%20Items/JM19.png)
 ***
 **Name:** Vibrant Goo
 
@@ -942,7 +942,7 @@ All Jellymon items are apart of `Jellymon #9372` bot
 
 **Description:** Krusty Krab team background.
 
-![KK BG](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Jellymon%20Items/battle.png)
+![KK BG](/assets/Jellymon%20Items/battle.png)
 ***
 **Name:** Sunset Enviroment
 
@@ -1233,7 +1233,7 @@ All Jellymon items are apart of `Jellymon #9372` bot
 
 **Description:** Dip your stingers in the cool sense of antivenom to reduce their toxicity.
 
-![Antivenom](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Jellymon%20Items/JM79.png)
+![Antivenom](/assets/Jellymon%20Items/JM79.png)
 ***
 **Name:** Giant Rusty Anchor
 
@@ -1253,7 +1253,7 @@ All Jellymon items are apart of `Jellymon #9372` bot
 
 **Description:** Anchor! Anchor! I can't find my giant rusty anchor!!!!! Oh here it is... reduces your swimming speed.
 
-![Anchor](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Jellymon%20Items/JM80.png)
+![Anchor](/assets/Jellymon%20Items/JM80.png)
 ***
 # Unbuyable Items
 These items can only acquired by doing special activities or joining giveaways. You **cannot** buy any of these items in the Barg'n-Mart store.
@@ -1272,7 +1272,7 @@ These items can only acquired by doing special activities or joining giveaways. 
 
 **How to get it:** Only winners of the 10,000 member celebration [giveaway](https://discord.com/channels/384811165949231104/651142213501321263/777689292033622036) won this jar
 
-![Image of Mindy's Glass Jar](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Jellymon%20Items/Mindy%20Jar.png)
+![Image of Mindy's Glass Jar](/assets/Jellymon%20Items/Mindy%20Jar.png)
 ***
 **Name:** Chrome Team Background
 
@@ -1292,7 +1292,7 @@ These items can only acquired by doing special activities or joining giveaways. 
 
 **How to get it:** Only coding helpers, beta testers, and artists could obtain this background
 
-![Picture of Future BG](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Jellymon%20Items/team.png)
+![Picture of Future BG](/assets/Jellymon%20Items/team.png)
 ***
 **Name:** Retro License
 
@@ -1312,7 +1312,7 @@ These items can only acquired by doing special activities or joining giveaways. 
 
 **How to get it:** Only coding helpers, beta testers, and artists could obtain this license
 
-![Image of the Retro License](https://raw.githubusercontent.com/nwunderly/bikinibottomdiscord-dev/master/assets/Jellymon%20Items/license.png)
+![Image of the Retro License](/assets/Jellymon%20Items/license.png)
 
 # Shop Images
 
