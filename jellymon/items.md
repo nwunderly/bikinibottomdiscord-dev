@@ -6,7 +6,9 @@ description:
 # General Information
 
 Officially announced on October 9th, 2020, 'Shell Coins', or more commonly called, 'Shells', are the in-server currency for the Bikini Bottom discord server. Every message you send in any text channel (not including #starboard, #rock-bottom, #mod-thots, #mod-help, and #bikini-bottom-town-hall) gets you a chance of getting 0.1 to 1.9 Shells. With Shells, you can view how many you have with the `Bank of Bikini Bottom #9854`bot. You can also buy items with the `Barg'n-Mart #9623` bot. (See command info to learn how) The announcement message can be found [here.](https://discord.com/channels/384811165949231104/476854142846107668/764330255838085161)
+
 ***
+
 # Commands Info
 
 All of the following commands are used for both `Bank of Bikini Bottom #9854` and `Barg'n-Mart #9623` bots. You must have access to all of the channels before you can use these commands.
@@ -40,13 +42,17 @@ All of the following commands are used for both `Bank of Bikini Bottom #9854` an
 **!mart (item name or page number)** / **!store (item name or page number)** - Quickly shows an item from the store.
 
 **!buy [item number] (amount)** / **!purchase [item number] (amount)** - Quickly buys an item from the store.
+
 ***
+
 
 
 # **Royal Items**
 
 Royal items **only** affect server roles, rank experience, and shells (the server currency)
+
 ***
+
 
 **Name:** Rubber Gloves 
 
@@ -64,7 +70,9 @@ Royal items **only** affect server roles, rank experience, and shells (the serve
 
 ![Rubber Gloves](/assets/Royal%20Items/NH00.png)
 
+
 ***
+
 **Name:** Walkie Talkie
 
 **Item Number:** NH01
@@ -81,7 +89,9 @@ Royal items **only** affect server roles, rank experience, and shells (the serve
 
 ![Walkie Talkie](/assets/Royal%20Items/NH01.png)
 
+
 ***
+
 **Name:** Wool Sock
 
 **Item Number:** NH02
@@ -98,7 +108,9 @@ Royal items **only** affect server roles, rank experience, and shells (the serve
 
 ![Wool Sock](/assets/Royal%20Items/NH02.png)
 
+
 ***
+
 **Name:** Bowl of Nails
 
 **Item Number:** NH03
@@ -115,7 +127,9 @@ Royal items **only** affect server roles, rank experience, and shells (the serve
 
 ![Bowl of Nails](/assets/Royal%20Items/NH03.png)
 
+
 ***
+
 **Name:** Howard Blandy Aprentice
 
 **Item Number:** NH04
@@ -132,7 +146,9 @@ Royal items **only** affect server roles, rank experience, and shells (the serve
 
 ![Howard Balndy Aprentice](/assets/Royal%20Items/NH04.png)
 
+
 ***
+
 **Name:** Hall Pass
 
 **Item Number:** NH05
@@ -152,7 +168,9 @@ Royal items **only** affect server roles, rank experience, and shells (the serve
 # **Jellymon Items**
 
 All Jellymon items are apart of `Jellymon #9372` bot
+
 ***
+
 
 
 **Name:** Glass Jar
@@ -175,7 +193,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 
 ![Glass Jar](/assets/Jellymon%20Items/JM10.png)
 
+
 ***
+
 **Name:** Thick Glass Jar
 
 **Item Number:** JM11
@@ -196,7 +216,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 
 ![Thick Glass Jar](/assets/Jellymon%20Items/JM11.png)
 
+
 ***
+
 **Name:** Reinforced Glass Jar
 
 **Item Number:** JM12
@@ -217,7 +239,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 
 ![Reinforced Glass Jar](/assets/Jellymon%20Items/JM12.png)
 
+
 ***
+
 **Name:** Jellyfish Jam
 
 **Item Number:** JM14
@@ -235,7 +259,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Healing
 
 **Description:** Recover 6% of max HP at the end of the turn
+
 ***
+
 **Name:** Sweet Fruit
 
 **Item Number:** JM15
@@ -253,7 +279,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Healing
 
 **Description:** Recover 50% max HP at 25% max HP or less
+
 ***
+
 **Name:** Tart Fruit
 
 **Item Number:** JM16
@@ -271,7 +299,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Healing
 
 **Description:** Recover 25% max HP at 50% max HP or less
+
 ***
+
 **Name:** AAA Battery
 
 **Item Number:** JM17
@@ -291,7 +321,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Description:** Multiply the base power of Shock moves by 1.2
 
 ![AAA Battery](/assets/Jellymon%20Items/JM17.png)
+
 ***
+
 **Name:** Bubble Buddy
 
 **Item Number:** JM18
@@ -309,7 +341,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Multiplier
 
 **Description:** Multiply the base power of Bubble moves by 1.2
+
 ***
+
 **Name:** Sewing Needle
 
 **Item Number:** JM19
@@ -329,7 +363,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Description:** Multiply the base power of Sting moves by 1.2
 
 ![Sewing Needle](/assets/Jellymon%20Items/JM19.png)
+
 ***
+
 **Name:** Vibrant Goo
 
 **Item Number:** JM20
@@ -347,7 +383,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Multiplier
 
 **Description:** Multiply the base power of Mutant moves by 1.2
+
 ***
+
 **Name:** Pristine Snowflake
 
 **Item Number:** JM21
@@ -365,7 +403,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Multiplier
 
 **Description:** Multiply the base power of Frost moves by 1.2
+
 ***
+
 **Name:** Oversized Boxing Glove
 
 **Item Number:** JM22
@@ -383,7 +423,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Multiplier
 
 **Description:** Multiply the base power of Fighting moves by 1.2
+
 ***
+
 **Name:** Large Kite
 
 **Item Number:** JM23
@@ -401,7 +443,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Multiplier
 
 **Description:** Multiply the base power of Flying moves by 1.2
+
 ***
+
 **Name:** Knight's Helm
 
 **Item Number:** JM24
@@ -419,7 +463,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Multiplier
 
 **Description:** Multiply the base power of Dragon moves by 1.2
+
 ***
+
 **Name:** Floating Shopping List
 
 **Item Number:** JM25
@@ -437,7 +483,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Multiplier
 
 **Description:** Multiply the base power of Spooky moves by 1.2
+
 ***
+
 **Name:** 11th Dial
 
 **Item Number:** JM26
@@ -455,7 +503,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Multiplier
 
 **Description:** Multiply the base power of Sound moves by 1.2
+
 ***
+
 **Name:** String Jam
 
 **Item Number:** JM27
@@ -473,7 +523,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Defensive
 
 **Description:** Halves damage taken from Sting moves
+
 ***
+
 **Name:** Shock Jam
 
 **Item Number:** JM28
@@ -491,7 +543,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Defensive
 
 **Description:** Halves damage taken from Shock moves
+
 ***
+
 **Name:** Bubble Jam
 
 **Item Number:** JM29
@@ -509,7 +563,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Defensive
 
 **Description:** Halves damage taken from Bubble moves
+
 ***
+
 **Name:** Mutant Jam
 
 **Item Number:** JM30
@@ -527,7 +583,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Defensive
 
 **Description:** Halves damage taken from Mutant moves
+
 ***
+
 **Name:** Sound Jam
 
 **Item Number:** JM31
@@ -545,7 +603,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Defensive
 
 **Description:** Halves damage taken from Sound moves
+
 ***
+
 **Name:** Frost Jam
 
 **Item Number:** JM32
@@ -563,7 +623,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Defensive
 
 **Description:** Halves damage taken from Frost moves
+
 ***
+
 **Name:** Dragon Jam
 
 **Item Number:** JM33
@@ -581,7 +643,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Defensive
 
 **Description:** Halves damage taken from Dragon moves
+
 ***
+
 **Name:** Fighting Jam
 
 **Item Number:** JM34
@@ -599,7 +663,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Defensive
 
 **Description:** Halves damage taken from Fighting moves
+
 ***
+
 **Name:** Spooky Jam
 
 **Item Number:** JM35
@@ -617,7 +683,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Defensive
 
 **Description:** Halves damage taken from Spooky moves
+
 ***
+
 **Name:** Flying Jam
 
 **Item Number:** JM36
@@ -635,7 +703,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Defensive
 
 **Description:** Halves damage taken from Flying moves
+
 ***
+
 **Name:** Anchor Arms
 
 **Item Number:** JM37
@@ -653,7 +723,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Multiplier
 
 **Description:** Multiply the stinger count by 1.5, but lock the Jellymon into one move until switched out
+
 ***
+
 **Name:** Sea Snake Venom
 
 **Item Number:** JM38
@@ -671,7 +743,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Multiplier
 
 **Description:** Multiply the toxicity count by 1.3, but lock the Jellymon into one move until switched out
+
 ***
+
 **Name:** Solid Rocket Booster
 
 **Item Number:** JM39
@@ -689,7 +763,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Multiplier
 
 **Description:** Multiply the swim speed count by 1.5, but lock the Jellymon into one move until switched out
+
 ***
+
 **Name:** Solid Rocket Booster
 
 **Item Number:** JM40
@@ -707,7 +783,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Multiplier
 
 **Description:** Multiply the swim speed count by 1.5, but lock the Jellymon into one move until switched out
+
 ***
+
 **Name:** Kelp Juice
 
 **Item Number:** JM41
@@ -725,7 +803,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Healing
 
 **Description:** Cures all active status conditions
+
 ***
+
 **Name:** Coral Bits
 
 **Item Number:** JM42
@@ -743,7 +823,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Healing
 
 **Description:** Heals 50 HP
+
 ***
+
 **Name:** Seaweed Salad
 
 **Item Number:** JM43
@@ -761,7 +843,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Healing
 
 **Description:** Heals 150 HP
+
 ***
+
 **Name:** Kelp Shake
 
 **Item Number:** JM44
@@ -779,7 +863,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Healing
 
 **Description:** Heals all HP
+
 ***
+
 **Name:** Krusty Combo
 
 **Item Number:** JM44
@@ -797,7 +883,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Healing
 
 **Description:** Heals all HP and status conditions
+
 ***
+
 **Name:** Salor's Surprise
 
 **Item Number:** JM49
@@ -815,7 +903,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Healing
 
 **Description:** Revives a random fainted Jellymon in your party to full HP
+
 ***
+
 **Name:** Soul's Catalyst
 
 **Item Number:** JM50
@@ -833,7 +923,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Boost
 
 **Description:** Krabs will sell your soul for only 62 cents. This potion will increase your HP making you now worth 70 cents to him!
+
 ***
+
 **Name:** Tentacle Extensions
 
 **Item Number:** JM51
@@ -851,7 +943,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Boost
 
 **Description:** Go to your Jellymon's favorite salon and get them some artificial tentacle entensions because they deserve better. Increases your stinger count.
+
 ***
+
 **Name:** Botox Injection
 
 **Item Number:** JM52
@@ -869,7 +963,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Boost
 
 **Description:** Artificially swells your Jellymon's skin thickness.
+
 ***
+
 **Name:** Venom Gland
 
 **Item Number:** JM53
@@ -887,7 +983,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Boost
 
 **Description:** Sandy brought home some rattlesnake glands from Texas. Drench your stingers in these secretions!
+
 ***
+
 **Name:** Dive Flipper
 
 **Item Number:** JM54
@@ -905,7 +1003,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Boost
 
 **Description:** Attaches large dive flippers to your Jellymon's tenticles for a faster swim speed!
+
 ***
+
 **Name:** Dark License
 
 **Item Number:** JM56
@@ -923,7 +1023,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** License-Cosmetic
 
 **Description:** Dark theme standard issue Catcher's License card.
+
 ***
+
 **Name:** Krusty Krab Team Background
 
 **Item Number:** JM60
@@ -943,7 +1045,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Description:** Krusty Krab team background.
 
 ![KK BG](/assets/Jellymon%20Items/battle.png)
+
 ***
+
 **Name:** Sunset Enviroment
 
 **Item Number:** JM64
@@ -961,7 +1065,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Battle-Cosmetic
 
 **Description:** Calming sunset Jellymon battle background location.
+
 ***
+
 **Name:** Treedome Enviroment
 
 **Item Number:** JM65
@@ -979,7 +1085,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Battle-Cosmetic
 
 **Description:** Sand's Treedome Jellymon battle background location.
+
 ***
+
 **Name:** Warm Blanket
 
 **Item Number:** JM66
@@ -997,7 +1105,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Recovery
 
 **Description:** Provides 5 HP gains applied to Jellymons on your team in order until exhausted or fully healed. Fully healed Jellymons have their move uses replenished fully.
+
 ***
+
 **Name:** Heated Blanket
 
 **Item Number:** JM67
@@ -1015,7 +1125,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Recovery
 
 **Description:** Provides 10 HP gains applied to Jellymons on your team in order until exhausted or fully healed. Fully healed Jellymons have their move uses replenished fully.
+
 ***
+
 **Name:** Seanutbutter Sandwhich
 
 **Item Number:** JM68
@@ -1033,7 +1145,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Recovery
 
 **Description:** Provides 25 HP gains applied to Jellymons on your team in order until exhausted or fully healed. Fully healed Jellymons have their move uses replenished fully.
+
 ***
+
 **Name:** Home Remedy
 
 **Item Number:** JM69
@@ -1051,7 +1165,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Recovery
 
 **Description:** Provides 50 HP gains applied to Jellymons on your team in order until exhausted or fully healed. Fully healed Jellymons have their move uses replenished fully.
+
 ***
+
 **Name:** Seanutbutter and Jam Sandwich
 
 **Item Number:** JM70
@@ -1069,7 +1185,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Recovery
 
 **Description:** Provides 100 HP gains applied to Jellymons on your team in order until exhausted or fully healed. Fully healed Jellymons have their move uses replenished fully.
+
 ***
+
 **Name:** Grandma's Cookies
 
 **Item Number:** JM71
@@ -1087,7 +1205,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Recovery
 
 **Description:** Provides 250 HP gains applied to Jellymons on your team in order until exhausted or fully healed. Fully healed Jellymons have their move uses replenished fully.
+
 ***
+
 **Name:** Pushups
 
 **Item Number:** JM72
@@ -1105,6 +1225,7 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Exercise
 
 **Description:** Provides 50 move use points applied to Jellymons and moves on your team in order until exhausted or fully replenished.
+
 ***
 
 **Name:** Chin Ups
@@ -1124,7 +1245,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Exercise
 
 **Description:** Provides 100 move use points applied to Jellymons and moves on your team in order until exhausted or fully replenished.
+
 ***
+
 **Name:** Ab Blaster Max
 
 **Item Number:** JM74
@@ -1142,7 +1265,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Exercise
 
 **Description:** Provides 250 move use points applied to Jellymons and moves on your team in order until exhausted or fully replenished.
+
 ***
+
 **Name:** Boflex Total System
 
 **Item Number:** JM75
@@ -1160,7 +1285,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Exercise
 
 **Description:** Provides 500 move use points applied to Jellymons and moves on your team in order until exhausted or fully replenished.
+
 ***
+
 **Name:** Soul Siphon
 
 **Item Number:** JM76
@@ -1178,7 +1305,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Boost
 
 **Description:** Krabs will sell your soul for only 62 cents. Too bad the Dutchman will take you for free. This potion will decrease your HP stat.
+
 ***
+
 **Name:** Tentacle Buzz Cut
 
 **Item Number:** JM77
@@ -1196,7 +1325,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Boost
 
 **Description:** Man up and shave your tentacles down to a size one clipper head. Recudes your stinger count.
+
 ***
+
 **Name:** Liposuction
 
 **Item Number:** JM78
@@ -1214,7 +1345,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Category:** Boost
 
 **Description:** Suck the botox right out of your cheeks and reduce your skin thickness.
+
 ***
+
 **Name:** Antivenom
 
 **Item Number:** JM79
@@ -1234,7 +1367,9 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Description:** Dip your stingers in the cool sense of antivenom to reduce their toxicity.
 
 ![Antivenom](/assets/Jellymon%20Items/JM79.png)
+
 ***
+
 **Name:** Giant Rusty Anchor
 
 **Item Number:** JM80
@@ -1254,10 +1389,14 @@ All Jellymon items are apart of `Jellymon #9372` bot
 **Description:** Anchor! Anchor! I can't find my giant rusty anchor!!!!! Oh here it is... reduces your swimming speed.
 
 ![Anchor](/assets/Jellymon%20Items/JM80.png)
+
 ***
+
 # Unbuyable Items
 These items can only acquired by doing special activities or joining giveaways. You **cannot** buy any of these items in the Barg'n-Mart store.
+
 ***
+
 **Name:** Mindy's Glass Jar
 
 **Consumable:** Yes
@@ -1273,7 +1412,9 @@ These items can only acquired by doing special activities or joining giveaways. 
 **How to get it:** Only winners of the 10,000 member celebration [giveaway](https://discord.com/channels/384811165949231104/651142213501321263/777689292033622036) won this jar
 
 ![Image of Mindy's Glass Jar](/assets/Jellymon%20Items/Mindy%20Jar.png)
+
 ***
+
 **Name:** Chrome Team Background
 
 **Item Number:** JM59
@@ -1293,7 +1434,9 @@ These items can only acquired by doing special activities or joining giveaways. 
 **How to get it:** Only coding helpers, beta testers, and artists could obtain this background
 
 ![Picture of Future BG](/assets/Jellymon%20Items/team.png)
+
 ***
+
 **Name:** Retro License
 
 **Item Number:** JM57
