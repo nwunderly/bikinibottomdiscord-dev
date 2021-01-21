@@ -222,7 +222,7 @@ body {
     margin-top: 30px;
 }
 
-@media (max-device-width: 1500px) or (orientation: portrait) {
+@media (max-device-width: 1500px) {
     #header {
         background: rgb(0, 0, 255) !important;
     }
